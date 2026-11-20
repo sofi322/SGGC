@@ -18,8 +18,8 @@
         <!-- MENÚ DE NAVEGACIÓN -->
         <nav>
             <ul>
-                <li><a href="inicio">INICIO</a></li>
-                <li><a href="registro">REGISTRO</a></li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#registro">REGISTRO</a></li>
                 <li><a href="#">interes</a></li>
                 <li><a href="#">informacion</a></li>
             </ul>
@@ -33,7 +33,15 @@
     <label> Apellido Materno</label>
     <input type="text" name="nombre" placeholder="Escribe tu Apellido Materno">
     <label> Edad:</label>
-    <input type="number" name="edad" min="14" max="25"placeholder="Escribe tu Edad.. required">
+    <input type="number" name="edad" min="14" max="25"placeholder="Escribe tu Edad.." required>
+    <label>Genero:</label><br><br>
+    <inpunt type="radio" name="genero" value="Femenino">Femenino<br><br> 
+    <inpunt type="radio" name="genero" value="Masculino">Masculino<br><br> 
+    <label>Intereses:</label><br>
+    <input type="checkbox" name="interes" value="Musica">Musica
+    <input type="checkbox" name="interes" value="Futbol">Futbol  
+    <input type="checkbox" name="interes" value="Viaje">Viaje 
+    <input type="checkbox" name="interes" value="Video Juegos">Video Juegos       
     <button type="submit"> Guardar</button>
 
 </form>
